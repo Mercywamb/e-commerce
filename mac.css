@@ -1,0 +1,43 @@
+nav{
+    background-color: aquamarine;
+    color: azure;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav>h1{
+    margin: 0;
+
+}
+#cart{
+    display: flex;
+    align-items: center;
+
+}
+#cart>button{
+    margin-right: 12px;
+}
+#productGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.product{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+.product>img{
+    width: 200px;
+    height: 60px;
+    
+}
+.product>h3{
+    margin: 10px 0;
+
+}
+.product>button{
+    margin-bottom: 12px;
+}
