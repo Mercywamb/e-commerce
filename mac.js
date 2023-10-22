@@ -2,7 +2,7 @@ alert("hi");
 const products = [{id: 1, name:"macbook Air", category:"macbook", price:999 }
 
 ]
-let cart =[];0git
+let cart =[];0
 function showAllProducts(){
     const productGrid = 
     document.getElementById("productGrid");
